@@ -1,5 +1,9 @@
+def tts():
+    pass
+
+
 def main():
-    print("Hello from openai-tts-example!")
+    tts()
 
 
 if __name__ == "__main__":
