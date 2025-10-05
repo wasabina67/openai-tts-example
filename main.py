@@ -17,6 +17,8 @@ def tts(model: str, voice: str, text: str, output_file: str):
 
 
 def main():
+    # https://platform.openai.com/docs/guides/text-to-speech
+    # https://platform.openai.com/docs/api-reference/audio/createSpeech
     text = (
         'こんにちは。今日は素晴らしい天気ですね。'
         '音声合成技術を使って、自然な日本語の読み上げを試しています。'
